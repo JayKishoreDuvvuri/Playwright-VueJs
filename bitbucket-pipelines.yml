@@ -7,5 +7,7 @@ pipelines:
         image: mcr.microsoft.com/playwright:v1.38.0-jammy
         script:
           - npm install
+          - npx playwright install chrome
+          - npx playwright install msedge
           - npx playwright install
           - npm run test

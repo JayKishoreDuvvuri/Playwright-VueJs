@@ -58,9 +58,9 @@ Html-test-report :
 npm run test:report
 ```
 
-#### GitLab
+#### BitBuket Pipeline
 
 ```bash
-Repo: https://gitlab.com/j1182/playwright-javascript
-Pipelines: https://gitlab.com/j1182/playwright-javascript/-/pipelines
+Repo: https://bitbucket.org/jaykishore96/playwright-vuejs/src/master/
+Pipelines: https://bitbucket.org/jaykishore96/playwright-vuejs/pipelines/results/page/1
 ```
