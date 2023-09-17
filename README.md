@@ -54,7 +54,6 @@ npm run test - For tests in parallel on all browsers and mobile view
 #### Playwright Test Report 
 
 ```bash
-Html-test-report :
 npm run test:report
 ```
 
