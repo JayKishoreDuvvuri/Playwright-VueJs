@@ -3,7 +3,7 @@ image: node:10.15.0
 pipelines:
   default:
     - step:
-        name: Playwright-Automation-Tests-Angular-App
+        name: Playwright-Test-Automation
         image: mcr.microsoft.com/playwright:v1.38.0-jammy
         script:
           - npm install
