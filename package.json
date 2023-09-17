@@ -1,0 +1,26 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript for Vue.js Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:one": "npx playwright test TC_01_login.test.js --project=Chrome --reporter=html && npx playwright show-report",
+    "test:report": "npx playwright test TC_01_login.test.js --reporter=html && npx playwright show-report",
+    "test:record": "npx playwright codegen",
+    "show-trace": "npx playwright show-trace"
+  },
+  "keywords": [
+    "Plawright",
+    "Vue.js",
+    "Test Automation",
+    "JavaScript"
+  ],
+  "author": "Jay Kishore Duvvuri",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.38.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^3.0.3"
+  }
+}
