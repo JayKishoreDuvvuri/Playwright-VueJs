@@ -45,7 +45,7 @@ Run tests in Chrome
 npm run test:one - For tests only on chrome browser
 ```
 
-Run tests in Parallel on chrome, firefox, safari, edge, pixel and iOS
+Run tests in Parallel on chrome, firefox, safari, edge, Android and iOS
 
 ```bash
 npm run test - For tests in parallel on all browsers and mobile view
