@@ -16,7 +16,7 @@ We are using https://app.snipcart.com/ as the Application Under Test. This App i
 Scenario 1: Login to Snipcart Website to verify the Dashboard Page and logout from the application
 Scenario Description: User logs into the website and verifies Dashboard page and logs out from the application. 
 Testname: TC_01_login.test.js
-```bash
+```
 
 
 #### Installation
@@ -28,7 +28,7 @@ Install the dependencies and devDependencies to run the test.
 
 Clone the repository
 ```bash
-git clone https://github.com/JayKishoreDuvvuri/Playwright-JavaScript.git
+git clone https://github.com/JayKishoreDuvvuri/Playwright-VueJs.git
 ```
 
 #### Install dependencies
